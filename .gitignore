@@ -1,0 +1,20 @@
+# Environments & Caches
+.env
+.venv
+/lp-det/
+__pycache__/
+.ipynb_checkpoints
+
+# Data & Runs (ignore large files)
+/runs/
+/data/
+*.zip
+*.tar.gz
+
+# Models (ignore large weights)
+/models/*.pt
+/models/*.onnx
+!/models/.gitkeep
+
+# macOS specific
+.DS_Store
