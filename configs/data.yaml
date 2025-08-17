@@ -13,6 +13,7 @@
 #   url: https://universe.roboflow.com/college-e9cj2/license-plate-detection-l8xs4/dataset/1
 
 # Train/val/test sets' image folders
+
 train: ../data/lp/train/images
 val: ../data/lp/valid/images  # This dataset uses 'valid'
 test: ../data/lp/test/images
