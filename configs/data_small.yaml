@@ -1,0 +1,9 @@
+# Train/val/test sets' image folders
+train: ../data/lp_small/train/images
+val: ../data/lp_small/valid/images
+
+# Number of classes
+nc: 1
+
+# Class names
+names: ['license_plate']
